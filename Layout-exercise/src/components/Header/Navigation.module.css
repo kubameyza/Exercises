@@ -1,0 +1,14 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_items {
+  display: flex;
+  list-style: none;
+}
+
+.nav_items li {
+  margin: 0 10px;
+}

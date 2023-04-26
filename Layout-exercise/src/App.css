@@ -2,15 +2,17 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .wrapper {
   display: grid;
-  width: 100vw;
+  width: 80vw;
+  margin: 0 auto;
+  max-width: 1280px;
   height: 100vh;
   grid-template-areas:
     'nav nav nav'
+    'main main aside'
     'main main aside'
     'main main aside'
     'main main aside'
@@ -19,7 +21,7 @@
 
 nav {
   grid-area: nav;
-  background-color: yellow;
+  -color: yellow;
 }
 
 main {
