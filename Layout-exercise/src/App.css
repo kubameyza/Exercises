@@ -4,3 +4,35 @@
   padding: 2rem;
   text-align: center;
 }
+
+.wrapper {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas:
+    'nav nav nav'
+    'main main aside'
+    'main main aside'
+    'main main aside'
+    'footer footer footer';
+}
+
+nav {
+  grid-area: nav;
+  background-color: yellow;
+}
+
+main {
+  grid-area: main;
+  background-color: gray;
+}
+
+aside {
+  grid-area: aside;
+  background-color: pink;
+}
+
+footer {
+  grid-area: footer;
+  background-color: blue;
+}
