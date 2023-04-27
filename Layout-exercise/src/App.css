@@ -5,28 +5,29 @@
 }
 
 .wrapper {
-  display: grid;
+  grid-template-rows: 70px 1fr;
   width: 80vw;
-  margin: 0 auto;
   max-width: 1280px;
-  height: 100vh;
-  grid-template-areas:
-    'nav nav nav'
-    'main main aside'
-    'main main aside'
-    'main main aside'
-    'main main aside'
-    'footer footer footer';
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
 }
 
 nav {
   grid-area: nav;
-  -color: yellow;
+}
+
+.content {
+  display: grid;
+  grid-template-areas:
+    'main main aside'
+    'main main aside'
+    'footer footer footer';
+  gap: 3rem;
 }
 
 main {
   grid-area: main;
-  background-color: gray;
 }
 
 aside {
