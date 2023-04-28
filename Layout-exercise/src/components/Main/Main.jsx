@@ -7,9 +7,13 @@ const Main = ({ image_path, heading, text, buttonText }) => {
         className={styles.image}
         src={image_path}
       ></img>
-      <h1>{heading}</h1>
-      <p>{text}</p>
-      <button>{buttonText}</button>
+      <div className={styles.text}>
+        <h1>{heading}</h1>
+        <div>
+          <p>{text}</p>
+          <button>{buttonText}</button>
+        </div>
+      </div>
     </div>
   );
 };

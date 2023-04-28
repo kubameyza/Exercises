@@ -2,6 +2,7 @@ import './App.css';
 import { Navigation } from './components/Header/Navigation';
 import Main from './components/Main/Main';
 import Aside from './components/Aside/Aside';
+import Footer from './components/Footer/Footer';
 
 const navListItems = ['Home', 'New', 'Popular', 'Trending', 'Categories'];
 
@@ -29,7 +30,9 @@ function App() {
           <aside>
             <Aside></Aside>
           </aside>
-          <footer></footer>
+          <footer>
+            <Footer>hi</Footer>
+          </footer>
         </div>
       </div>
     </>

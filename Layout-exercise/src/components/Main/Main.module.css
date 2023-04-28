@@ -1,11 +1,7 @@
 .main {
   width: 100%;
-  display: grid;
-  grid-template-areas:
-    'image image'
-    'heading article'
-    'heading button';
-  gap: 3rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .image {
@@ -14,17 +10,23 @@
   max-width: 730px;
 }
 
+.text {
+  display: flex;
+  padding-top: 3rem;
+}
+
 .main h1 {
-  grid-area: heading;
-  width: 300px;
+  width: 350px;
   font-size: 5rem;
   font-weight: 800;
   margin: 0;
+  /* padding: 2rem 2rem 1rem 0; */
 }
 
 .main p {
   grid-area: article;
   width: 300px;
+  margin: 0;
 }
 
 .main button {

@@ -1,6 +1,6 @@
-.heading {
+.article {
   color: white;
-  margin: 0 2rem 4rem 2.5rem;
+  padding: 0 2rem 4rem 2.5rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid hsl(233, 8%, 79%);
 }

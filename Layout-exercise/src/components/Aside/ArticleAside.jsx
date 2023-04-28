@@ -1,13 +1,13 @@
-import styles from './Heading.module.css';
+import styles from './ArticleAside.module.css';
 
-const Heading = ({ articles }) => {
+const ArticleAside = ({ articles }) => {
   return (
     <div>
       {articles.map((heading, index) => {
         return (
           <div
             key={index}
-            className={styles.heading}
+            className={styles.article}
           >
             <h3>{heading.title}</h3>
             <p>{heading.subtitle}</p>
@@ -18,4 +18,4 @@ const Heading = ({ articles }) => {
   );
 };
 
-export default Heading;
+export default ArticleAside;

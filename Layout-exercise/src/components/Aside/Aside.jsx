@@ -1,7 +1,7 @@
 import styles from './Aside.module.css';
-import Heading from '../Heading/Heading';
+import ArticleAside from './ArticleAside';
 
-const headings = [
+const asideArticles = [
   {
     title: 'Hydrogen VS Electric Cars',
     subtitle: 'Will hydrogen-fueled cars ever catch up to EVs?',
@@ -23,7 +23,7 @@ const Aside = () => {
     <>
       <div className={styles.aside}>
         <h2>New</h2>
-        <Heading articles={headings}></Heading>
+        <ArticleAside articles={asideArticles}></ArticleAside>
       </div>
     </>
   );

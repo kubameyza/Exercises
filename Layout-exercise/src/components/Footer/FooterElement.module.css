@@ -1,0 +1,22 @@
+.element {
+  display: flex;
+  padding: 0 1rem;
+}
+
+.img {
+  height: 125px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.element h2 {
+  margin: 0 0 1rem 0;
+  font-size: 3rem;
+}
+
+.element h3 {
+  margin: 0;
+}
