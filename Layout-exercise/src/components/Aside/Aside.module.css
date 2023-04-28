@@ -1,0 +1,18 @@
+.aside {
+  background-color: hsl(240, 100%, 5%);
+  width: 100%;
+  color: hsl(233, 8%, 79%);
+}
+
+.aside h2 {
+  color: hsl(35, 77%, 62%);
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0;
+  padding-left: 2.5rem;
+  padding-top: 4rem;
+}
+
+.aside p {
+  color: hsl(233, 8%, 79%);
+}

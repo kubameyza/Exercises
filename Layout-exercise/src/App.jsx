@@ -1,6 +1,7 @@
 import './App.css';
 import { Navigation } from './components/Header/Navigation';
 import Main from './components/Main/Main';
+import Aside from './components/Aside/Aside';
 
 const navListItems = ['Home', 'New', 'Popular', 'Trending', 'Categories'];
 
@@ -22,10 +23,12 @@ function App() {
               text="We dive into the next evolution of web that claims to put the power of
               the platforms back into the hands of the people. But is it really
               fullfilling its promise?"
-              buttonText="read more"
+              buttonText="READ MORE"
             ></Main>
           </main>
-          <aside></aside>
+          <aside>
+            <Aside></Aside>
+          </aside>
           <footer></footer>
         </div>
       </div>

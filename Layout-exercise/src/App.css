@@ -32,7 +32,7 @@ main {
 
 aside {
   grid-area: aside;
-  background-color: pink;
+  margin: 0;
 }
 
 footer {
