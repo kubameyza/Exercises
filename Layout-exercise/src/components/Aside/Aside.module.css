@@ -1,8 +1,8 @@
 .aside {
   background-color: hsl(240, 100%, 5%);
   width: 100%;
-  min-width: 350px;
   color: hsl(233, 8%, 79%);
+  padding: 0.5rem 0;
 }
 
 .aside h2 {
@@ -11,9 +11,15 @@
   font-weight: 600;
   margin: 0;
   padding-left: 2.5rem;
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .aside p {
   color: hsl(233, 8%, 79%);
+}
+
+@media (width < 788px) {
+  .aside {
+    margin: 0 auto;
+  }
 }

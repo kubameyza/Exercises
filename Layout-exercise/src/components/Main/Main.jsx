@@ -9,7 +9,7 @@ const Main = ({ image_path, heading, text, buttonText }) => {
       ></img>
       <div className={styles.text}>
         <h1>{heading}</h1>
-        <div>
+        <div className={styles.article}>
           <p>{text}</p>
           <button>{buttonText}</button>
         </div>

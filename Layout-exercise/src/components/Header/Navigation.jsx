@@ -10,7 +10,16 @@ export const Navigation = ({ image_path, listItems }) => {
       ></img>
       <ul className={styles.nav_items}>
         {listItems.map((listItem, index) => {
-          return <li key={index}>{listItem}</li>;
+          return (
+            <>
+              <a
+                className={styles.link}
+                href="#"
+              >
+                <li key={index}>{listItem}</li>
+              </a>
+            </>
+          );
         })}
       </ul>
     </div>

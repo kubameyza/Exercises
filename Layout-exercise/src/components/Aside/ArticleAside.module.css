@@ -1,6 +1,19 @@
 .article {
   color: white;
-  padding: 0 2rem 4rem 2.5rem;
-  padding-bottom: 2rem;
+  margin: 0 2.5rem 0 2.5rem;
+  padding: 1rem 0;
   border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+.article:nth-of-type(3) {
+  border: none;
+}
+
+.article p {
+  line-height: 24px;
+}
+
+.article h3:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
 }

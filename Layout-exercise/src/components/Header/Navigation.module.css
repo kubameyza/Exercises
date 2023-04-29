@@ -3,8 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 7rem;
-  margin-bottom: 5.6rem;
+  /* margin-top: 7rem;
+  margin-bottom: 5.6rem; */
+  margin: 7rem auto 5.6rem auto;
 }
 
 .nav_items {
@@ -18,4 +19,24 @@
 
 .logo {
   height: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+
+.link:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+@media (width < 788px) {
+  .navigation {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .nav_items li {
+    margin-left: 1rem;
+  }
 }

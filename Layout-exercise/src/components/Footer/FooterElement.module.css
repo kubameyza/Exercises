@@ -1,6 +1,7 @@
 .element {
   display: flex;
   padding: 0 1rem;
+  width: 340px;
 }
 
 .img {
@@ -15,8 +16,19 @@
 .element h2 {
   margin: 0 0 1rem 0;
   font-size: 3rem;
+  color: hsl(233, 8%, 79%);
 }
 
 .element h3 {
   margin: 0;
+  color: hsl(240, 100%, 5%);
+}
+
+.element p {
+  color: hsl(236, 13%, 42%);
+}
+
+.element h3:hover {
+  cursor: pointer;
+  color: hsl(5, 85%, 63%);
 }
