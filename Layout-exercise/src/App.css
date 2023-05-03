@@ -15,6 +15,9 @@
 nav {
   grid-area: nav;
   width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .content {
@@ -44,8 +47,8 @@ footer {
 }
 
 @media (width < 788px) {
-  body {
-    width: 100vw;
+  .wrapper {
+    padding: 1rem;
   }
 
   .content {

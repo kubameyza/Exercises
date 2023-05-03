@@ -11,6 +11,12 @@
   max-width: 730px;
 }
 
+.mobile_image {
+  grid-area: image;
+  width: 100%;
+  display: none;
+}
+
 .text {
   display: flex;
   padding-top: 3rem;
@@ -54,23 +60,23 @@
   cursor: pointer;
 }
 
-@media (width < 788px) {
-  .main {
-    margin: 0 auto;
+@media (width < 770px) {
+  .image {
+    display: none;
   }
 
-  .main h1 {
-    font-size: 3rem;
+  .mobile_image {
+    display: block;
+    width: 100%;
   }
 
-  .main p {
-    width: 240px;
+  .article {
+    margin: 0;
   }
 }
 
-@media (width < 425px) {
-  .main h1 {
-    font-size: 2rem;
-    line-height: 3rem;
+@media (width < 430px) {
+  .text {
+    flex-direction: column;
   }
 }

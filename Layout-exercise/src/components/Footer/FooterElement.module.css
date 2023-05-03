@@ -32,3 +32,10 @@
   cursor: pointer;
   color: hsl(5, 85%, 63%);
 }
+
+@media (width < 770px) {
+  .element {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
